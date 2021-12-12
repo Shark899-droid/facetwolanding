@@ -1,5 +1,143 @@
+.Ball1 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 19.9%;
+  top: 32%;
+}
+
+.Ball2 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 19.9%;
+  top: 72%;
+}
+.Ball3 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 39.9%;
+  top: 25%;
+}
+
+.Ball4 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 39.9%;
+  top: 74%;
+}
+
+.Ball5 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 59.8%;
+  top: 30%;
+}
+
+.Ball6 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 59.8%;
+  top: 72%;
+}
+
+.Ball7 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 79.8%;
+  top: 18%;
+}
+
+.Ball8 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(31, 159, 231);
+  border-radius: 20px;
+  left: 79.8%;
+  top: 72%;
+}
+
+.line1 {
+  position: absolute;
+  border: none;
+  width: 1px;
+  height: 97.5%;
+  background-color: rgb(31, 159, 231);
+  top: -10px;
+  left: 20%;
+  z-index: 1;
+}
+.line2 {
+  position: absolute;
+  border: none;
+  width: 1px;
+  height: 97.5%;
+  background-color: rgb(31, 159, 231);
+  top: -10px;
+  left: 40%;
+  z-index: 1;
+}
+
+.line3 {
+  position: absolute;
+  border: none;
+  width: 1px;
+  height: 97.5%;
+  background-color: rgb(31, 159, 231);
+  top: -10px;
+  left: 20%;
+  z-index: 1;
+}
+
+.line4 {
+  position: absolute;
+  border: none;
+  width: 1px;
+  height: 97.5%;
+  background-color: rgb(31, 159, 231);
+  top: -10px;
+  left: 60%;
+  z-index: 1;
+}
+
+.line5 {
+  position: absolute;
+  border: none;
+  width: 1px;
+  height: 97.5%;
+  background-color: rgb(31, 159, 231);
+  top: -10px;
+  left: 80%;
+  z-index: 1;
+}
+
 .accordion {
-  background-image: url('https://images.unsplash.com/photo-1611083616600-d3fdc4198aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
+  background: rgb(6, 148, 228);
+  background: linear-gradient(
+    122deg,
+    rgb(6, 148, 228) 0%,
+    rgb(3, 109, 175) 80%
+  );
   width: 100%;
   height: 40rem;
   background-repeat: no-repeat;
@@ -14,9 +152,11 @@
 
 .accordion h1 {
   font-size: 50px;
+  z-index: 3;
 }
 .accordion span {
   text-align: center;
+  z-index: 3;
 }
 
 .iconsMainContainer {

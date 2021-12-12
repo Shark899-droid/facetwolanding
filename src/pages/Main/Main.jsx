@@ -9,6 +9,22 @@ import { SiPivotaltracker } from 'react-icons/si';
 function Main() {
   return (
     <>
+      <hr className='line1' />
+      <div className='Ball1'></div>
+      <div className='Ball2'></div>
+
+      <hr className='line2' />
+      <div className='Ball3'></div>
+      <div className='Ball4'></div>
+      <hr className='line3' />
+      <div className='Ball5'></div>
+      <div className='Ball6'></div>
+      <hr className='line4' />
+      <div className='Ball7'></div>
+      <div className='Ball8'></div>
+      <hr className='line5' />
+      <div className='Ball9'></div>
+      <div className='Ball10'></div>
       <div className='accordion'>
         <h1>Employee Time Tracking App</h1>
         <span>
