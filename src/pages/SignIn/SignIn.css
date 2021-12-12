@@ -1,0 +1,52 @@
+.mainSignin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSignin form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+  width: 30%;
+}
+
+.linesSignIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.linesSignIn input {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+  padding-left: 1rem;
+  border: 1px solid grey;
+  margin-top: 1rem;
+}
+
+.linesSignIn input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: lightgray;
+}
+
+.mainSignin button {
+  margin-top: 2rem;
+  height: 2.5rem;
+  color: white;
+  background-color: rgb(5, 135, 211);
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}

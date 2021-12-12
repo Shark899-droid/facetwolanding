@@ -1,0 +1,77 @@
+.mainFooter {
+  position: relative;
+  bottom: 0;
+  height: 10rem;
+  background-color: rgb(46, 49, 54);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerMainFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.footerFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerFirst img {
+  width: 5rem;
+  margin-right: 1rem;
+}
+.footerFirst hr {
+  height: 4rem;
+  margin-right: 1rem;
+  border: none;
+  width: 2px;
+  background-color: white;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.footerSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSecond a {
+  text-decoration: none;
+  color: white;
+}
+
+.dots {
+  font-size: 24px;
+  color: white;
+  margin: 0 0.5rem;
+}
+
+.footerThird {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.innerThird {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconsFoot {
+  font-size: 20px;
+  color: white;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
